@@ -15,7 +15,6 @@
 *.ps
 *.eps
 *.pdf
-!Homepage/*
 
 ## Bibliography auxiliary files (bibtex/biblatex/biber):
 *.bbl
@@ -80,5 +79,5 @@
 # xindy
 *.xdy
 
-## Mine gitignore
+## My gitignore
 .DS_Store
