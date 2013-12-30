@@ -1,0 +1,22 @@
+LATEX = xelatex
+DVIPDF = dvipdfm
+SPELL = aspell
+TEX = CV_KaifeiChen
+BIBTEX = bibtex
+SOURCES = $(wildcard *.tex) $(wildcard *.bib)
+
+default: pdf
+
+pdf:
+	$(LATEX) $(TEX).tex
+	#$(BIBTEX) $(TEX)
+	#$(LATEX) $(TEX).tex
+	#$(LATEX) $(TEX).tex
+	make open
+
+open:
+	open $(TEX).pdf
+
+clean:
+	$(RM) -f *.aux *.blg *.dvi *.log *.toc *.lof *.lot *.cb *.bbl *.upa *.upb $(TEX).ps $(TEX).pdf *~ *.out
+	$(RM) -f *-converted-to.pdf

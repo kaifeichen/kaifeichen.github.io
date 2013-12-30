@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>Kaifei Chen &gt; Research &gt; PANDAA</title>
+<meta HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-8">
+<link HREF="../style.css" REL="stylesheet" TYPE="text/css">
+<!--[if IE 7]>
+  <link href="../ie.css" rel="stylesheet" type="text/css" />
+  <![endif]-->
+<link REL="shortcut icon" HREF="../Favicon.ico">
+<style TYPE="text/css">
+<!--
+.STYLE1 {
+	font-weight: bold
+}
+-->
+</style>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-25679190-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+<body>
+<div ID="wrap">
+  <div ID="header">
+    <h1 ID="sitename"> <a HREF="../index.html">Kaifei Chen</a>  </h1>
+    <div ID="topmenu">
+      <ul>
+        <li> <a HREF="../index.html">Home</a> </li>
+        <li CLASS="active"> <a HREF="Research.html">Research</a> </li>
+        <li> <a HREF="../Publications/Publications.html">Publications</a> </li>
+        <li> <a HREF="../Education/Education.html">Education</a> </li>
+        <li> <a HREF="../CV/CV.php">CV</a> </li>
+        <li> <a HREF="../Miscellaneous/Miscellaneous.html">Miscellaneous</a> </li>
+      </ul>
+    </div>
+  </div>
+  <div ID="content">
+    <p> <span CLASS="STYLE1"><a HREF="../index.html">Home</a> &gt; <a HREF="Research.html">Research</a> &gt; PANDAA</span> </p>
+    <hr align="left" STYLE="width:200px">
+    <h2 align="justify">Overview</h2>
+    <p align="justify">Physical Arrangement Detection of Networked Devices through Ambient-Sound Awareness (PANDAA) is a low-cost indoor acoustic sensing system. This system features automatic self-localization of networked devices through ambient sound awareness. It doesn't need pre-deployed infrastructure, is readily applicable for commercial-on-the-shelf mobile devices and processes fully automatic detection.</p>
+    <p align="justify">&nbsp;</p>
+    <h2 align="justify">What Problem It Solves</h2>
+    <p align="justify"></p>
+    <p align="justify">/*TODO: will add more soon*/</p>
+    <p align="justify">&nbsp;</p>
+<h2 align="justify">How It Works</h2>
+    <p align="justify">The PANDAA system addresses the major challenges of ambient sound-based arrangement detection as follows.    </p>
+    <table BORDER="0px">
+      <tbody>
+        <tr>
+          <td width="55%"><h3 align="justify">Choosing Usable Ambient Sound Segments.</h3>
+            <p align="justify">Ambient sounds, such as music played on a radio, human speech, noise from a working vacuum cleaner or a barking dog, may vary signiﬁcantly in signal-to-noise ratio (SNR). In addition, varying proximity to the sound source can lead to signiﬁcant difference in SNR. PANDAA addresses this challenge using an algorithm that can automatically detect impulsive sounds. Impulsive sounds are short duration sounds with relatively higher amplitude, such as human cough, ﬁnger snaps, or beats in a song.</p>
+            <p align="justify">&nbsp;</p>
+            <h3 align="justify">Correcting Inaccurate TDoA Measurements.</h3>
+            <p align="justify">In indoor environments, TDoA measurements can be affected by environmental factors, such as reﬂections, non-line-of-sight (LoS) path, or ambient noise. These effects are location-dependent and time-variant. Consider a resident walking in the room. His/her changing location may temporarily cause a few devices to lose LoS, which can cause erroneous TDoA measurements. To compensate for TDoA errors, PANDAA uses a novel two-tier TDoA aggregation algorithm that identiﬁes sounds originating from the same sound source and averages TDoA measurements over them.</p></td>
+          <td width="45%"><img SRC="img/PANDAA_Flow_Chart.png" ALT="LiveSynergy Logo" width="303" height="391" align="right" STYLE="border: 0px solid;"></td>
+        </tr >
+        <tr>
+          <td COLSPAN="2">
+            <h3 align="justify">Localizing Devices From TDoA Measurements.</h3>
+            <p align="justify">TDoA measurements from one single sound event are insufﬁcient for estimating distance between two devices. PANDAA addresses this challenge by considering TDoA measurements from multiple ambient sound sources over time, to estimate inter-device distances and iteratively improve accuracy.</p></td>
+        </tr>
+      </tbody>
+    </table>
+    <p align="justify">&nbsp;</p>
+    <h2 align="justify">System Implementation And Evaluation</h2>
+    <p align="justify">To evaluate the arrangement detection techniques, we present real experiments with a few sound source locations (ﬁxed speakers to localize), and many locations (ambient sound localization). We implemented the PANDAA system using acoustic sensing nodes and deployed them in indoor environments. Each node is built upon an LPC-P2148 prototyping board, featuring an ARM 760 MHz CPU and 48KB memory, with an inexpensive microphone (Knowles MD9745APZ-F [1]) and a Bluetooth radio for diagnosis.</p>
+    <p align="justify">&nbsp;</p>
+    <p align="justify">/*TODO: will add more soon*/</p>
+    <p align="justify">&nbsp;</p>
+    <h2 align="justify">Publications</h2>
+    <p align="justify">Zheng Sun, Aveek Purohit, <u>Kaifei Chen</u>, Shijia Pan, Trevor Perring, and Pei Zhang. "<i>PANDAA: Physical Arrangement Detection of Networked Devices through Ambient-Sound Awareness</i>”. In the Proceedings of the 13th ACM International Conference on Ubiquitous Computing (UbiComp 2011), pages 425-434, Sept. 2011. Beijing, China. [<a HREF="data/UbiComp2011PANDAA.pdf" target="_blank">pdf</a>] <br />
+    <strong>(Acceptance rate = 50/302 = 16.6%) <br />
+    (Affiliated demo wins the <font color="#cc6600">Best Demo Award</font>)</strong> [<a HREF="../Publications/data/UbiComp2011BestDemoPlaque.pdf" target="_blank">plaque</a>]</p>
+    <p align="justify">&nbsp;</p>
+    <p align="justify">Zheng Sun, Aveek Purohit, Philippe De Wagter, Irina Brinster, Chorom Hamm, and Pei Zhang. “<i>(Demo abstract) PANDAA: A Physical Arrangement Detection Technique for Networked Devices through Ambient-Sound Awareness</i>”. In the Proceedings of the 17th ACM Special Interest Group on Data Communication (SIGCOMM 2011), pages 442-443, Aug. 2011. Toronto, Canada. [<a href="http://works.bepress.com/zhengs/8/" target="_blank">pdf</a>]</p>
+    <p align="justify">&nbsp;</p>
+    <h2 align="justify">My Contributions</h2>
+    <p align="justify">1. Designed and developed an algorithm to iteratively estimate distances between all pairs in a microphone network purely using Time Difference of Arrival from ambient sound sources to microphones.</p>
+    <p align="justify">2. Designed and developed a greedy algorithm to compute the relative microphone locations, making the most use of the information by giving more priorities to more precise pair distance estimations.</p>
+    <p align="justify">3. Designed and implemented a metric to evaluate the system state when it is running.</p>
+  </div>
+  <div ID="footer">
+    <div ID="ft_btm"> Last updated on
+      <!-- #BeginDate format:IS1 -->2012-01-15<!-- #EndDate -->
+      <br>
+      <br>
+      <br>
+    </div>
+  </div>
+</div>
+</body>
+</html>
