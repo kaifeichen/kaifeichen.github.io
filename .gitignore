@@ -15,7 +15,7 @@
 *.ps
 *.eps
 *.pdf
-!mobicom2014/fig/*
+!Homepage/*
 
 ## Bibliography auxiliary files (bibtex/biblatex/biber):
 *.bbl
@@ -80,3 +80,5 @@
 # xindy
 *.xdy
 
+## Mine gitignore
+.DS_Store
